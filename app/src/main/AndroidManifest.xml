@@ -12,7 +12,10 @@
 
         android:theme="@style/Theme.Solution.NoActionBar">
         <activity android:name=".MainActivity"></activity>
-        <activity android:name=".RegisterActivity"></activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:theme="@style/Theme.Solution"
+            ></activity>
         <activity
             android:name=".LoginActivity"
 
