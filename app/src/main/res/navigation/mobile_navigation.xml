@@ -22,4 +22,10 @@
         android:name="com.example.solution.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_game"
+        android:name="com.example.solution.ui.game.GameFragment"
+        android:label="게임"
+        tools:layout="@layout/fragment_game" />
 </navigation>
